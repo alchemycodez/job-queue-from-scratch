@@ -15,9 +15,9 @@ dead-letter queues, and concurrency.
 - [x] Graceful handling of an empty queue (no crash)
 
 ## Planned
-- [ ] Jobs that actually do async work (simulated, can fail)
-- [ ] Retry logic with backoff
-- [ ] Dead-letter queue for jobs exceeding max retries
-- [ ] Multiple concurrent workers, no double-processing
+- [x] Jobs that actually do async work (simulated, can fail)
+- [x] Retry logic with backoff
+- [x] Dead-letter queue for jobs exceeding max retries
+- [x] Multiple concurrent workers, no double-processing
 - [ ] Priority handling
 - [ ] Persistence (likely Redis)
